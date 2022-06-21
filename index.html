@@ -2,6 +2,33 @@
 <head>
 <link rel="stylesheet" href="styles.css">
 
+<script  type="text/javascript">
+	function Course1() {
+		document.getElementById("1CourseBlock").style.display = "block";
+		document.getElementById("2CourseBlock").style.display = "none";
+		document.getElementById("glossaryBlock").style.display = "none";
+		document.getElementById("testsBlock").style.display = "none";
+	}
+	function Course2() {
+		document.getElementById("1CourseBlock").style.display = "none";
+		document.getElementById("2CourseBlock").style.display = "block";
+		document.getElementById("glossaryBlock").style.display = "none";
+		document.getElementById("testsBlock").style.display = "none";
+	}
+	function glossary() {
+		document.getElementById("1CourseBlock").style.display = "none";
+		document.getElementById("2CourseBlock").style.display = "none";
+		document.getElementById("glossaryBlock").style.display = "block";
+		document.getElementById("testsBlock").style.display = "none";
+	}
+	function tests() {
+		document.getElementById("1CourseBlock").style.display = "none";
+		document.getElementById("2CourseBlock").style.display = "none";
+		document.getElementById("glossaryBlock").style.display = "none";
+		document.getElementById("testsBlock").style.display = "block";
+	}
+</script>
+
 </head>
 
 <body>
@@ -45,6 +72,62 @@
 				</a>
 			</div>
 		</div>
+	</div>
+	
+	<h2 style="text-align: center; margin:50 20;">Materials to Learn:</h2>
+	
+	<p style="text-align: center; margin:50 20;">
+		<button id="1CourseButton" onclick="Course1()">1st Course</button>&nbsp;&nbsp;&nbsp;
+		<button id="2CourseButton" onclick="Course2()">2nd Course</button>&nbsp;&nbsp;&nbsp;
+		<button id="glossaryButton" onclick="glossary()">Glossary </button>&nbsp;&nbsp;&nbsp;
+		<button id="testsButton" onclick="tests()">Tests</button>
+	</p>
+		   
+	<div id="1CourseBlock" style="display:none; width:60%; margin-left:20%; margin-bottom:100px;">
+		<ol class="rounded">
+			<li>Download <a href="materials/1/ADVERBS_OF_FREQUENCY_1_COURSE.pptx" target="_blank">ADVERBS_OF_FREQUENCY_1_COURSE.pptx</a></li>
+			<li>Download <a href="materials/1/AFFIRMATIVE_1_course.docx" target="_blank">AFFIRMATIVE_1_course.docx</a></li>
+			<li>Download <a href="materials/1/ARTICLES _1_course.pptx" target="_blank">ARTICLES _1_course.pptx</a></li>
+			<li>Download <a href="materials/1/CAN_CANNOT_1_course.pptx" target="_blank">CAN_CANNOT_1_course.pptx</a></li>
+			<li>Download <a href="materials/1/DEMONSTRATIVE_PRON_1_course.pptx" target="_blank">DEMONSTRATIVE_PRON_1_course.pptx</a></li>
+			<li>Download <a href="materials/1/INDEFINITE_PRONOUNS.pptx" target="_blank">INDEFINITE_PRONOUNS.pptx</a></li>
+			<li>Download <a href="materials/1/PERSONAL_PRON_1_course.pptx" target="_blank">PERSONAL_PRON_1_course.pptx</a></li>
+			<li>Download <a href="materials/1/POSS_ADJ_1_course.pptx" target="_blank">POSS_ADJ_1_course.pptx</a></li>
+			<li>Download <a href="materials/1/TO_BE_1_course.pptx" target="_blank">TO_BE_1_course.pptx</a></li>
+			<li>Download <a href="materials/1/TO_BE_POSITIVE.pptx" target="_blank">TO_BE_POSITIVE.pptx</a></li>
+		</ol>
+	</div>
+	<div id="2CourseBlock" style="display:none; width:60%; margin-left:20%; margin-bottom:100px;">
+		<ol class="rounded">
+			<li>Download <a href="materials/2/2_course_Adverbs_of_Frequency_lesson_2.docx" target="_blank">2_course_Adverbs_of_Frequency_lesson_2.docx</a></li>
+			<li>Download <a href="materials/2/2_course_less_4_PAST_SIMPLE.pptx" target="_blank">2_course_less_4_PAST_SIMPLE.pptx</a></li>
+			<li>Download <a href="materials/2/2_course_less_5_PRESENT_PERFECT.pptx" target="_blank">2_course_less_5_PRESENT_PERFECT.pptx</a></li>
+			<li>Download <a href="materials/2/2_course_less_6_QUESTIONS.pptx" target="_blank">2_course_less_6_QUESTIONS.pptx</a></li>
+			<li>Download <a href="materials/2/2_course_less_7_TO_BE_GOING_TO.pptx" target="_blank">2_course_less_7_TO_BE_GOING_TO.pptx</a></li>
+			<li>Download <a href="materials/2/2_course_less_8_PRES_CONT_FUTURE_ARRANGEMENT" target="_blank">2_course_less_8_PRES_CONT_FUTURE_ARRANGEMENT</a></li>
+			<li>Download <a href="materials/2/2_course_less_9_RELATIVE_CLAUSES.pptx" target="_blank">2_course_less_9_RELATIVE_CLAUSES.pptx</a></li>
+			<li>Download <a href="materials/2/2_course_lesson_3_PRESENT_CONTINUOUS.pptx" target="_blank">2_course_lesson_3_PRESENT_CONTINUOUS.pptx</a></li>
+			<li>Download <a href="materials/2/2_course_likes_and_dislikes(lesson_1).pptx" target="_blank">2_course_likes_and_dislikes(lesson_1).pptx</a></li>
+			<li>Download <a href="materials/2/2_course_likes_and_dislikes.docx" target="_blank">2_course_likes_and_dislikes.docx</a></li>
+			<li>Download <a href="materials/2/2_course_PRESENT_CONTINUOUS_less_3.docx" target="_blank">2_course_PRESENT_CONTINUOUS_less_3.docx</a></li>
+			<li>Download <a href="materials/2/2_курс_ADVERBS_OF_FREQUENCY_lesson_2.pptx" target="_blank">2_курс_ADVERBS_OF_FREQUENCY_lesson_2.pptx</a></li>
+			<li>Download <a href="materials/2/CONDITIONALS_0-1.pptx" target="_blank">CONDITIONALS_0-1.pptx</a></li>
+			<li>Download <a href="materials/2/CONDITIONALS_2-3.pptx" target="_blank">CONDITIONALS_2-3.pptx</a></li>
+			<li>Download <a href="materials/2/DIRECT_AND_REPORTED_SPEECH.pptx" target="_blank">DIRECT_AND_REPORTED_SPEECH.pptx</a></li>
+			<li>Download <a href="materials/2/PARTICIPLES.pptx" target="_blank">PARTICIPLES.pptx</a></li>
+			<li>Download <a href="materials/2/PAST_SIMPLE.docx" target="_blank">PAST_SIMPLE.docx</a></li>
+			<li>Download <a href="materials/2/PRESENT_CONTINUOUS_less_3.docx" target="_blank">PRESENT_CONTINUOUS_less_3.docx</a></li>
+		</ol>
+	</div>
+	<div id="glossaryBlock" style="display:none; width:60%; margin-left:20%; margin-bottom:100px;">
+		<ol class="rounded">
+			<li>Download <a href="materials/glossary.pdf" target="_blank">glossary.pdf</a></li>
+		</ol>
+	</div>
+	<div id="testsBlock" style="display:none; width:60%; margin-left:20%; margin-bottom:100px;">
+		<ol class="rounded">
+			<li>Download <a href="materials/tests.pdf" target="_blank">tests.pdf</a></li>
+		</ol>
 	</div>
 
 </body>
